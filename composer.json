@@ -27,6 +27,11 @@
 			"type": "vcs",
 			"url": "https://github.com/TomPavelec/buffertools-php.git",
 			"no-api": true
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/TomPavelec/phpecc.git",
+			"no-api": true
 		}
 	],
 	"require": {
@@ -34,7 +39,7 @@
 		"pleonasm/merkle-tree": "1.0.0",
 		"composer/semver": "^1.4.0|^3.2.0",
 		"lastguest/murmurhash": "^2.1",
-		"mdanter/ecc": "^1.0",
+		"mdanter/ecc": "dev-upgrade_for_php_8.2",
 		"bitwasp/buffertools": "dev-upgrade_for_php_8.2",
 		"bitwasp/bech32": "^0.0.1"
 	},
